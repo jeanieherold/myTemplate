@@ -1,0 +1,173 @@
+/* Jeanie Herold Web Design Template --> Mobile First Approach */
+
+/* ================================= 
+  Page Reset Preferences
+==================================== */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* ================================= 
+  General Styles
+==================================== */
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 13px;
+	color: #e0e0eb;
+	background-color: #fff;
+}
+
+header {
+  width: 100%;
+  background: #000033;
+  border-bottom: 2px solid #00ff99;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  float: left; /* this property is what allows it to show and have a background color*/
+
+}
+
+#wrapper {
+  width: 80%;
+  max-width: 940px;
+  display: block;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+section {
+  width: 80%;
+  padding: 5%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ================================= 
+  Typography
+==================================== */
+
+h1 {
+	font-size: 1.4em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.small-text {
+  font-size: .75em;
+}
+
+.center {
+	text-align: center;
+}
+
+/* ================================= 
+  Logo
+==================================== */
+
+#logo {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding-left: 10px;
+  float: left;
+}
+
+#logo a {
+  display: block;
+  padding: 10px 15px;
+}
+
+/* ================================= 
+  Navigation
+==================================== */
+
+nav {
+  text-align: center;
+  padding: 20px 0;
+  margin: 20px 0 30px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0 30px;
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  float: left;
+}
+
+nav a {
+  font-size: 1em;
+  font-weight: 500;
+  padding: 15px 10px;
+  color: #7aa5d7;
+}
+
+nav a.selected, nav a:hover {
+  color: #d7d6dc;
+}
+
+/* ================================= 
+  Footer
+==================================== */
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/* ================================= 
+  Clear Floats
+==================================== */
+
+.clearfix {
+	clear: both;
+}
+
+.hidden {
+	display: none;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 469px) {
+
+	h1 {
+		font-size: 2em;
+	}
+
+	header {
+	    margin-bottom: 60px;
+  	}
+
+}
+
+@media (min-width: 769px) {
+
+}
+
+
+
+
+
+
+
