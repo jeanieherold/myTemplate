@@ -48,9 +48,12 @@ section {
 /* ================================= 
   Typography
 ==================================== */
-
+/* h1 vertical margin touches the header vertical margin
+- this {margin: 0;} is over-writing the normalize.css 
+that has h1 margin at .67em*/
 h1 {
 	font-size: 1.4em;
+  margin: 0;  
 }
 
 a {
