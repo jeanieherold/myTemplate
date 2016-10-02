@@ -1,4 +1,4 @@
-/* Jeanie Herold Web Design Template --> Mobile First Approach */
+/* Jeanie Herold - my web preferences template --> Mobile First Approach */
 
 /* ================================= 
   Page Reset Preferences
@@ -26,7 +26,7 @@ header {
   border-bottom: 2px solid #00ff99;
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
-  float: left; /* this property is what allows it to show and have a background color*/
+  float: left;
 
 }
 
@@ -48,9 +48,7 @@ section {
 /* ================================= 
   Typography
 ==================================== */
-/* h1 vertical margin touches the header vertical margin
-- this {margin: 0;} is over-writing the normalize.css 
-that has h1 margin at .67em*/
+
 h1 {
 	font-size: 1.4em;
   margin: 0;  
@@ -73,44 +71,39 @@ a {
 ==================================== */
 
 #logo {
-  margin-top: 6px;
-  margin-bottom: 6px;
-  padding-left: 10px;
-  float: left;
+  text-align: center;
+  font-size: 1.25em;
+  margin-top: 10px;
+  display: block;
 }
 
 #logo a {
-  display: block;
-  padding: 10px 15px;
+  color: #7aa5d7;
+  text-align: center;
 }
 
 /* ================================= 
   Navigation
 ==================================== */
 
-nav {
-  text-align: center;
-  padding: 20px 0;
-  margin: 20px 0 30px 0;
-}
-
 nav ul {
   list-style: none;
-  margin: 0 10px;
-  padding: 0 30px;
-  float: right;
+  padding: 0 0 15px 0;
 }
 
 nav li {
-  display: inline-block;
-  float: left;
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 nav a {
   font-size: 1em;
   font-weight: 500;
-  padding: 15px 10px;
   color: #7aa5d7;
+  text-align: center;
+  display: block;
+  padding: 5px;
 }
 
 nav a.selected, nav a:hover {
@@ -151,15 +144,41 @@ footer {
   Media Queries
 ==================================== */
 
-@media (min-width: 469px) {
+@media (min-width: 620px) {
 
 	h1 {
 		font-size: 2em;
 	}
 
 	header {
-	    margin-bottom: 60px;
-  	}
+    margin-bottom: 60px;
+  }
+  /* =====Logo and Nav===== */
+  #logo {
+    padding: 15px 50px;
+    float: left;
+    margin-top: 7px;
+    margin-bottom: 20px;
+  }
+
+  nav ul {
+    float: right;
+    padding-right: 50px;
+    padding-top: 25px;
+}
+  nav li {
+    display: inline-block;
+    float: left;
+  }
+
+  nav a {
+    font-size: 1em;
+    font-weight: 500;
+    padding: 15px 10px;
+    color: #7aa5d7;
+  }
+
+
 
 }
 
