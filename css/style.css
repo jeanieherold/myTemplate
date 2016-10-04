@@ -144,7 +144,7 @@ footer {
   Media Queries
 ==================================== */
 
-@media (min-width: 620px) {
+@media (min-width: 481px) {
 
 	h1 {
 		font-size: 2em;
